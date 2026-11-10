@@ -10,7 +10,7 @@
 Morning Manifesto を書く ──────────────────┘
 ```
 
-1. `todo-capture`: 議事録の `## Next Action` または Journal の「今日やり切ること」から TODO を取り出す。AI に任せるかを提案し、確認してから Notion の Tasks に登録する
+1. `todo-capture`: 議事録の `## Next Action`、Journal の「今日やり切ること」、または貼り付けたメモから TODO を取り出す。タスク名は分類込み35文字までに短くし、完了条件（Done）を本文に書く。AI に任せるかを提案し、確認してから Notion の Tasks に登録する
 2. `ai-task-run`: `AI` フラグ付きのタスクを、調査と下書きの範囲で AI が実行する。成果物を ShareDoc に上げ、Notion の `Result URL` に記録し、Slack の自分宛 DM で知らせる
 
 ## 入れ方

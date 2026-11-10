@@ -4,7 +4,7 @@
 
 ## 構成
 
-- `skills/todo-capture/SKILL.md`: 議事録の Next Action、または Journal の「今日やり切ること」から TODO を取り出し、AI に任せるかの提案を付けて確認し、Notion の Tasks に登録する
+- `skills/todo-capture/SKILL.md`: 議事録の Next Action、Journal の「今日やり切ること」、または貼り付けたメモから TODO を取り出し、短いタスク名（分類込み35文字まで）と完了条件（Done）を付けたチケットにする。AI に任せるかの提案を付けて確認し、Notion の Tasks に登録する
 - `skills/ai-task-run/SKILL.md`: `AI` フラグ付きの待機中タスクを実行し、ShareDoc で共有して Notion と Slack に報告する
 - `scripts/install.sh <プロジェクトのパス>`: 指定したプロジェクトの `.claude/skills/` にリンクする。`--uninstall` で外す
 - `skills/SKILL.md`: 空のプレースホルダー（スキルとしては入らない）
